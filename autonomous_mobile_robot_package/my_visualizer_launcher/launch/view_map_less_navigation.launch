@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_visualizer_launcher)/rviz/view_map_less_navigation.rviz" output="screen"/>
+</launch>
